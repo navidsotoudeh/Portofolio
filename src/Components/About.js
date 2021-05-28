@@ -70,12 +70,12 @@ export default function About(props) {
             <div className={classes.paragraph}>
               <p style={{ fontSize: "25px" }}> WEB DEVELOPER FROM IRAN </p>
               <p>
-                An ambitious problem solver with a passion for online
-                businesses. I have much experience of creating logical and
-                innovative solutions to complex problems. I am thorough and
-                precise in everything I do, and have a keen interest in
-                technology and web applications. As someone who takes
-                responsibility for his own personal development, I am
+                mikham rollback konammmm An ambitious problem solver with a
+                passion for online businesses. I have much experience of
+                creating logical and innovative solutions to complex problems. I
+                am thorough and precise in everything I do, and have a keen
+                interest in technology and web applications. As someone who
+                takes responsibility for his own personal development, I am
                 continually evaluating and upgrading my skills so that I stay at
                 the cutting edge of web development. I am a natural problem
                 solver, who have proven myself by successfully completing
