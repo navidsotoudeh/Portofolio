@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="c6" />
+    <list id="b268f71f-0eda-4ae4-8895-6bcbd7137e0b" name="Revert &quot;c3&quot;" comment="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/materialui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1serrCHtAtta919MKnoBzrA3yQG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Lenovo\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="" />
+      <created>1621244092022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621244092022</updated>
+      <workItem from="1621244093534" duration="8907000" />
+      <workItem from="1621340531556" duration="8098000" />
+      <workItem from="1621359570144" duration="1773000" />
+      <workItem from="1621361948134" duration="719000" />
+      <workItem from="1621363345820" duration="1396000" />
+      <workItem from="1621369319911" duration="1657000" />
+      <workItem from="1621396843992" duration="17046000" />
+      <workItem from="1621418521560" duration="4464000" />
+      <workItem from="1621424264656" duration="1397000" />
+      <workItem from="1621425820249" duration="5504000" />
+      <workItem from="1621502970831" duration="83000" />
+      <workItem from="1621504014251" duration="7024000" />
+      <workItem from="1621511714671" duration="1628000" />
+      <workItem from="1621513357526" duration="1791000" />
+      <workItem from="1621515495719" duration="101000" />
+      <workItem from="1621519334329" duration="6258000" />
+      <workItem from="1621603085915" duration="59000" />
+      <workItem from="1621607025391" duration="70000" />
+      <workItem from="1621620761513" duration="115000" />
+      <workItem from="1621657250960" duration="1798000" />
+      <workItem from="1621661583338" duration="4129000" />
+      <workItem from="1621666024120" duration="12364000" />
+      <workItem from="1621680314686" duration="14000" />
+      <workItem from="1621680352783" duration="1007000" />
+      <workItem from="1621682288079" duration="8613000" />
+      <workItem from="1621692133042" duration="6825000" />
+      <workItem from="1621706069076" duration="1038000" />
+      <workItem from="1621707205536" duration="912000" />
+      <workItem from="1621708630077" duration="1269000" />
+      <workItem from="1621710388107" duration="3591000" />
+      <workItem from="1621743570757" duration="1101000" />
+      <workItem from="1621749792925" duration="5462000" />
+      <workItem from="1621756938982" duration="4456000" />
+      <workItem from="1621761925733" duration="135000" />
+      <workItem from="1621762091707" duration="6598000" />
+      <workItem from="1621769383902" duration="2824000" />
+      <workItem from="1621772419978" duration="1953000" />
+      <workItem from="1621776000920" duration="8850000" />
+      <workItem from="1621796508328" duration="39000" />
+      <workItem from="1621829832362" duration="3194000" />
+      <workItem from="1621833450659" duration="12340000" />
+      <workItem from="1621856212929" duration="4934000" />
+      <workItem from="1621876326796" duration="6275000" />
+      <workItem from="1621915404577" duration="6305000" />
+      <workItem from="1621922231294" duration="6925000" />
+      <workItem from="1621929777578" duration="6967000" />
+      <workItem from="1621940780579" duration="706000" />
+      <workItem from="1621941732574" duration="67000" />
+      <workItem from="1621941822398" duration="3589000" />
+      <workItem from="1621945800421" duration="6517000" />
+      <workItem from="1621953655263" duration="85000" />
+      <workItem from="1621953929506" duration="2185000" />
+      <workItem from="1621968486863" duration="1634000" />
+      <workItem from="1621971700179" duration="287000" />
+      <workItem from="1622002679437" duration="29632000" />
+      <workItem from="1622039498890" duration="3795000" />
+      <workItem from="1622044078303" duration="1329000" />
+      <workItem from="1622095937133" duration="1325000" />
+      <workItem from="1622106158492" duration="760000" />
+      <workItem from="1622106949241" duration="54000" />
+      <workItem from="1622107099907" duration="52000" />
+      <workItem from="1622107236925" duration="6843000" />
+      <workItem from="1622115685134" duration="1172000" />
+      <workItem from="1622120378619" duration="5542000" />
+      <workItem from="1622126671174" duration="607000" />
+      <workItem from="1622138222288" duration="3006000" />
+      <workItem from="1622141507172" duration="5943000" />
+      <workItem from="1622147561023" duration="506000" />
+      <workItem from="1622181219193" duration="2922000" />
+      <workItem from="1622184174598" duration="486000" />
+      <workItem from="1622184841430" duration="3618000" />
+      <workItem from="1622188484028" duration="104000" />
+      <workItem from="1622189167284" duration="70000" />
+      <workItem from="1622189255851" duration="807000" />
+      <workItem from="1622190192195" duration="216000" />
+      <workItem from="1622191800306" duration="25000" />
+      <workItem from="1622192318974" duration="402000" />
+    </task>
+    <task id="LOCAL-00001" summary="c1">
+      <created>1622187990878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622187990878</updated>
+    </task>
+    <task id="LOCAL-00002" summary="c2">
+      <created>1622188053308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622188053308</updated>
+    </task>
+    <task id="LOCAL-00003" summary="c3">
+      <created>1622188219508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622188219508</updated>
+    </task>
+    <task id="LOCAL-00004" summary="c4">
+      <created>1622190219750</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622190219751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Revert &quot;c4&quot;&#10;&#10;This reverts commit 5e73228e">
+      <created>1622190333864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622190333864</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="c1" />
+    <MESSAGE value="c2" />
+    <MESSAGE value="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566" />
+    <MESSAGE value="c3" />
+    <MESSAGE value="c4" />
+    <MESSAGE value="c6" />
+    <MESSAGE value="Revert &quot;c4&quot;&#10;&#10;This reverts commit 5e73228e" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;c4&quot;&#10;&#10;This reverts commit 5e73228e" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="486" y="78" width="502" height="665" key="#Notifications" timestamp="1622183478875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="78" width="502" height="665" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1622183478875" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621513082780">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1621513082780" />
+    <state x="396" y="0" key="CommitChangelistDialog2" timestamp="1622190333127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="396" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622190333127" />
+    <state width="1515" height="203" key="GridCell.Tab.0.bottom" timestamp="1622184147149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
+    <state width="1515" height="203" key="GridCell.Tab.0.center" timestamp="1622184147149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
+    <state width="1515" height="203" key="GridCell.Tab.0.left" timestamp="1622184147149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
+    <state width="1515" height="203" key="GridCell.Tab.0.right" timestamp="1622184147149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1622188534797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1622188534797" />
+    <state x="657" y="280" width="221" height="281" key="MultipleFileMergeDialog" timestamp="1622188534806">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="657" y="280" width="221" height="281" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1622188534806" />
+    <state x="593" y="133" key="RollbackChangesDialog" timestamp="1622188336375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622188336375" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1622116070121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622116070121" />
+    <state x="618" y="326" key="VCS.ChangelistChooser" timestamp="1622188295840">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1622188295840" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1621885153105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1621885153105" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1622187734119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622187734119" />
+  </component>
+</project>
