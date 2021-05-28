@@ -1,0 +1,38 @@
+{
+  "About": 
+    {
+      "title": "WHO I AM",
+      "subtitle": "ABOUT",
+      "link": {
+        "github": "https://github.com/navidsotoudeh",
+        "stacOverflow": "https://stackoverflow.com/users/9345454/navid-sotoudeh-mehr",
+        "linkedin": "https://ir.linkedin.com/in/navidsotoudehmehr",
+        "Telegram_Id": "https://www.varzesh3.com/"
+		}
+	},
+    "RESUME":
+	{
+      "title": "MY BIO",
+      "subtitle": "RESUME"
+    },
+    "SKILLS":
+	{
+      "title": "ATTAINMENTS",
+      "subtitle": "SKILLS"
+    },
+	"Contact":
+	{
+      "title": "GET IN TOUCH",
+      "subtitle": "Contact"
+    },
+	"TextOnBg":[
+	{
+		"About" :"ABOUT ME",
+		"RESUME" : "MY RESUME",
+		"SKILLS" : "MY SKILLS",
+		"Contact": "CONTACT ME"
+		
+	}
+	]
+  
+}
