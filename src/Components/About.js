@@ -1,7 +1,7 @@
 //---------------------------------------------import module------------------------------------------------------------
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Link, Button, Element } from "react-scroll";
+import { Element } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
 import me from "../me.png";
 import data from "../data.json";
@@ -67,7 +67,7 @@ export default function About(props) {
               }}
             />
 
-            <div className={classes.paragraph}>
+            <div className={`${classes.paragraph} circularProgressBarr`}>
               <p style={{ fontSize: "25px" }}> WEB DEVELOPER FROM IRAN </p>
               <p>
                 salam 11 salam 22 salam 33An ambitious problem solver with a

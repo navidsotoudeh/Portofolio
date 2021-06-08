@@ -1,0 +1,23 @@
+.myTable-enter,
+.myTable-appear{
+    overflow-y: hidden;
+    max-height: 0;
+    opacity: 0;
+}
+
+.myTable-enter-active,
+.myTable-appear {
+    max-height: 50px;
+    transition: all 1000ms linear;
+    opacity: 1;
+}
+.myTable-exit {
+    height: 50px;
+    opacity: 1;
+}
+.myTable-exit-active {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 500ms linear;
+    opacity: 0;
+}

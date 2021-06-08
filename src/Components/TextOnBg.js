@@ -44,6 +44,8 @@ export default function TextOnBg({ activeSession }) {
         return "MY RESUME";
       case "skills":
         return "MY SKILLS";
+      case "comment":
+        return "Share your idea";
       case "contact":
         return "CONTACT ME";
       default:

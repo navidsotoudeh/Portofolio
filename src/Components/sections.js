@@ -1,7 +1,8 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import About from "./About";
 import Resume from "./Resume";
 import Skills from "./Skills";
+import Comment from "./comment";
 import Contact from "./Contatc";
 import { makeStyles } from "@material-ui/core/styles";
 import Divider from "@material-ui/core/Divider";
@@ -27,6 +28,7 @@ export default function Sections({
   onAboutMount,
   onResumneMount,
   onSkillsMount,
+  onCommentMount,
   onContactMount,
 }) {
   const classes = useStyles();
@@ -38,6 +40,8 @@ export default function Sections({
       <Resume onMount={onResumneMount} />
       <Divider className={classes.dvd} />
       <Skills onMount={onSkillsMount} />
+      <Divider className={classes.dvd} />
+      <Comment onMount={onCommentMount} />
       <Divider className={classes.dvd} />
       <Contact onMount={onContactMount} />
     </div>

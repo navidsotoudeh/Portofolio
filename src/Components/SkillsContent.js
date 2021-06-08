@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
     display: "flex",
     flexDirection: "column",
-    //alignItems: "space-between",
     justifyContent: "space-around",
   },
   section: {

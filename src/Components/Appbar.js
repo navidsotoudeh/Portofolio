@@ -8,7 +8,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
 import { scroller } from "react-scroll";
-import { InView } from "react-intersection-observer";
 
 //-----------------------------------CSS code---------------------------------------------------------------------------
 
@@ -158,6 +157,21 @@ export default function Appbar({ onClickk, activeSession }) {
           }
         >
           <Typography className={classes.title}>skills</Typography>
+        </Button>
+        <Button
+          style={{
+            backgroundColor:
+              activeSession === "comment" ? "#FFC815" : "#292929",
+          }}
+          className={classes.button}
+          onClick={() =>
+            scroller.scrollTo("comment", {
+              duration: 1500,
+              smooth: "easeOutQuart",
+            })
+          }
+        >
+          <Typography className={classes.title}>Comment</Typography>
         </Button>
         <Button
           style={{

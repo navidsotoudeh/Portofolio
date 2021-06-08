@@ -1,11 +1,13 @@
 import "./App.css";
 import Background from "./Components/Background";
 import Appbar from "./Components/Appbar";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Sections from "./Components/sections";
 import { makeStyles } from "@material-ui/core/styles";
+import "./index.css";
 
 //-----------------------------------CSS code---------------------------------------------------------------------------
+
 const useStyles = makeStyles((theme) => ({
   main: {
     display: "flex",
@@ -46,6 +48,10 @@ function App() {
     eS && setActiveSession("skills");
     return eS;
   };
+  const onCommentMount = (eCo) => {
+    eCo && setActiveSession("comment");
+    return eCo;
+  };
   const onContactMount = (eC) => {
     eC && setActiveSession("contact");
     return eC;
@@ -61,6 +67,7 @@ function App() {
             onAboutMount={onAboutMount}
             onResumneMount={onResumneMount}
             onSkillsMount={onSkillsMount}
+            onCommentMount={onCommentMount}
             onContactMount={onContactMount}
           />
         </div>

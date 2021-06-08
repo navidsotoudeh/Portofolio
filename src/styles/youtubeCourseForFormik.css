@@ -1,0 +1,32 @@
+.form-control{
+    margin-bottom: 25px;
+    width: 100%;
+}
+label{
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/*-------------------------------------------------------------*/
+/*input[type='name'],*/
+/*input[type='text'],*/
+/*input[type='email'],*/
+/*Select{*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    color: #000000;*/
+/*    font-weight: bold;*/
+/*}*/
+/*-------------------------------------------------------------*/
+
+textarea {
+    display: flex;
+    width: 100%;
+    color: #7d1c37;
+    background-color: #eaeaea;
+}
+
+.error{
+    color: #e53e3e;
+}

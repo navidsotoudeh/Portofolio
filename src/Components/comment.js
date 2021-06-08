@@ -3,15 +3,16 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Element } from "react-scroll";
 import { InView } from "react-intersection-observer";
-import HeaderInSection from "./headerInSection";
 import data from "../data.json";
-import SkillsContent from "./SkillsContent";
+import HeaderInSection from "./headerInSection";
+import CommentContent from "./commentContent";
+import CommentForTest from "./commentForTest";
 
 //-----------------------------------CSS code---------------------------------------------------------------------------
 
 const useStyles = makeStyles((theme) => ({
-  skillsComponent: {
-    backgroundColor: "#84ffff",
+  commentComponent: {
+    backgroundColor: "#b3dcce",
     display: "flex",
     width: "100%",
     height: "150vh",
@@ -28,17 +29,18 @@ const useStyles = makeStyles((theme) => ({
 
 //-----------------------main code--------------------------------------------------------------------------------------
 
-export default function Contact(props) {
+export default function Comment(props) {
   const classes = useStyles();
-  const title = data.SKILLS.title;
-  const subtitle = data.SKILLS.subtitle;
+  const title = data.COMMENT.title;
+  const subtitle = data.COMMENT.subtitle;
 
   return (
     <InView onChange={props.onMount}>
-      <Element name="skills" className={classes.skillsComponent}>
+      <Element name="comment" className={classes.commentComponent}>
         <div className={classes.main}>
           <HeaderInSection title={title} subtitle={subtitle} />
-          <SkillsContent />
+          {/*<CommentContent />*/}
+          <CommentForTest />
         </div>
       </Element>
     </InView>
