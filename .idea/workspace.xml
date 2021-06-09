@@ -16,16 +16,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="c6" />
-    <list id="b268f71f-0eda-4ae4-8895-6bcbd7137e0b" name="Revert &quot;c3&quot;" comment="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/materialui.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
+    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="c6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SkillsContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SkillsContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/sssss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/commentContent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/commentForTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/commentForTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/commentForTest.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/commentForTest.css" afterDir="false" />
     </list>
+    <list id="b268f71f-0eda-4ae4-8895-6bcbd7137e0b" name="Revert &quot;c3&quot;" comment="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -66,14 +68,64 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Lenovo\AppData\Roaming\npm\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\materialui\src\Components" />
+      <recent name="C:\Users\Lenovo\Desktop\materialui\src\Components\YouTubeCouresFormik" />
+      <recent name="C:\Users\Lenovo\Desktop\materialui\src\styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -162,6 +214,61 @@
       <workItem from="1622190192195" duration="216000" />
       <workItem from="1622191800306" duration="25000" />
       <workItem from="1622192318974" duration="402000" />
+      <workItem from="1622192734814" duration="3921000" />
+      <workItem from="1622197092571" duration="1178000" />
+      <workItem from="1622198460970" duration="666000" />
+      <workItem from="1622260021487" duration="2793000" />
+      <workItem from="1622264803462" duration="605000" />
+      <workItem from="1622353109140" duration="75000" />
+      <workItem from="1622354942791" duration="3284000" />
+      <workItem from="1622358304465" duration="5449000" />
+      <workItem from="1622363794318" duration="1090000" />
+      <workItem from="1622365463037" duration="23634000" />
+      <workItem from="1622398419044" duration="610000" />
+      <workItem from="1622441239405" duration="28000" />
+      <workItem from="1622441398718" duration="1845000" />
+      <workItem from="1622443868372" duration="2756000" />
+      <workItem from="1622447187536" duration="16089000" />
+      <workItem from="1622469178675" duration="13889000" />
+      <workItem from="1622520451360" duration="3987000" />
+      <workItem from="1622525772648" duration="220000" />
+      <workItem from="1622526006960" duration="25175000" />
+      <workItem from="1622605190511" duration="1825000" />
+      <workItem from="1622878857043" duration="924000" />
+      <workItem from="1622880470399" duration="23330000" />
+      <workItem from="1622976115670" duration="13362000" />
+      <workItem from="1622991451829" duration="16000" />
+      <workItem from="1622991492577" duration="338000" />
+      <workItem from="1622991865041" duration="1035000" />
+      <workItem from="1622992924970" duration="1422000" />
+      <workItem from="1622994379740" duration="52000" />
+      <workItem from="1622994464800" duration="793000" />
+      <workItem from="1623038521429" duration="13742000" />
+      <workItem from="1623053238314" duration="72000" />
+      <workItem from="1623053334317" duration="3753000" />
+      <workItem from="1623057412594" duration="782000" />
+      <workItem from="1623058219173" duration="1472000" />
+      <workItem from="1623061436661" duration="949000" />
+      <workItem from="1623062397514" duration="34000" />
+      <workItem from="1623062453311" duration="44000" />
+      <workItem from="1623062528505" duration="34000" />
+      <workItem from="1623062583753" duration="2382000" />
+      <workItem from="1623065084782" duration="1430000" />
+      <workItem from="1623067158043" duration="2778000" />
+      <workItem from="1623069952691" duration="3305000" />
+      <workItem from="1623081401976" duration="3591000" />
+      <workItem from="1623126613025" duration="2531000" />
+      <workItem from="1623132979684" duration="3000" />
+      <workItem from="1623133005319" duration="361000" />
+      <workItem from="1623133429619" duration="27791000" />
+      <workItem from="1623175907305" duration="3396000" />
+      <workItem from="1623211331223" duration="1826000" />
+      <workItem from="1623213445070" duration="86000" />
+      <workItem from="1623213586535" duration="2802000" />
+      <workItem from="1623219044545" duration="9343000" />
+      <workItem from="1623229881620" duration="46000" />
+      <workItem from="1623230154713" duration="71000" />
+      <workItem from="1623230495633" duration="8200000" />
     </task>
     <task id="LOCAL-00001" summary="c1">
       <created>1622187990878</created>
@@ -198,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622190333864</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="c6">
+      <created>1623152955066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623152955066</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,39 +359,51 @@
     <MESSAGE value="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566" />
     <MESSAGE value="c3" />
     <MESSAGE value="c4" />
-    <MESSAGE value="c6" />
     <MESSAGE value="Revert &quot;c4&quot;&#10;&#10;This reverts commit 5e73228e" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;c4&quot;&#10;&#10;This reverts commit 5e73228e" />
+    <MESSAGE value="c6" />
+    <option name="LAST_COMMIT_MESSAGE" value="c6" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="638" y="305" key="#ESLint" timestamp="1623145366740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="638" y="305" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1623145366740" />
+    <state x="25" y="94" key="#Inspections" timestamp="1622904969786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="25" y="94" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1622904969786" />
     <state x="486" y="78" width="502" height="665" key="#Notifications" timestamp="1622183478875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="486" y="78" width="502" height="665" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1622183478875" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621513082780">
+    <state x="543" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622261762642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1621513082780" />
+    <state x="543" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1622261762642" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623138262879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623138262879" />
     <state x="396" y="0" key="CommitChangelistDialog2" timestamp="1622190333127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622190333127" />
-    <state width="1515" height="203" key="GridCell.Tab.0.bottom" timestamp="1622184147149">
+    <state width="1515" height="203" key="GridCell.Tab.0.bottom" timestamp="1622194984606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
-    <state width="1515" height="203" key="GridCell.Tab.0.center" timestamp="1622184147149">
+    <state width="1515" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622194984606" />
+    <state width="1515" height="203" key="GridCell.Tab.0.center" timestamp="1622194984606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
-    <state width="1515" height="203" key="GridCell.Tab.0.left" timestamp="1622184147149">
+    <state width="1515" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622194984606" />
+    <state width="1515" height="203" key="GridCell.Tab.0.left" timestamp="1622194984606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
-    <state width="1515" height="203" key="GridCell.Tab.0.right" timestamp="1622184147149">
+    <state width="1515" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622194984606" />
+    <state width="1515" height="203" key="GridCell.Tab.0.right" timestamp="1622194984606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622184147149" />
+    <state width="1515" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622194984606" />
     <state x="147" y="65" key="MergeDialog" timestamp="1622188534797">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -290,21 +416,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622188336375" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1622116070121">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1623212414960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622116070121" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1623212414960" />
     <state x="618" y="326" key="VCS.ChangelistChooser" timestamp="1622188295840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1622188295840" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1621885153105">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623211983738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1621885153105" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1622187734119">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623211983738" />
+    <state x="285" y="105" width="1033" height="672" key="find.popup" timestamp="1623228296117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622187734119" />
+    <state x="285" y="105" width="1033" height="672" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1623228296117" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1623148961414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1623148961414" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1623222621758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623222621758" />
   </component>
 </project>

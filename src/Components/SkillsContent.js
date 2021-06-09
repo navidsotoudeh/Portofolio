@@ -40,31 +40,13 @@ export default function SkillsContent() {
 
   useEffect(() => {
     setCompletedOne(60);
-  }, []);
-  useEffect(() => {
     setCompletedTwo(70);
-  }, []);
-  useEffect(() => {
     setCompletedThree(80);
-  }, []);
-
-  useEffect(() => {
     setCompleted4(65);
-  }, []);
-  useEffect(() => {
     setCompleted5(75);
-  }, []);
-  useEffect(() => {
     setCompleted6(85);
-  }, []);
-
-  useEffect(() => {
     setCompleted7(70);
-  }, []);
-  useEffect(() => {
     setCompleted8(80);
-  }, []);
-  useEffect(() => {
     setCompleted9(90);
   }, []);
 
@@ -81,7 +63,7 @@ export default function SkillsContent() {
         </div>
       </div>
       <div className={classes.section}>
-        <div div className={classes.circular}></div>
+        <div className={classes.circular}></div>
         <div className={classes.linear}>
           <LinearProgressBar completed={completed4} />
           <LinearProgressBar completed={completed5} />
@@ -89,7 +71,7 @@ export default function SkillsContent() {
         </div>
       </div>
       <div className={classes.section}>
-        <div div className={classes.circular}></div>
+        <div className={classes.circular}></div>
         <div className={classes.linear}>
           <LinearProgressBar completed={completed7} />
           <LinearProgressBar completed={completed8} />
