@@ -19,7 +19,7 @@ export default function MaterialUiSelect(props) {
               id={name}
               {...rest}
               {...field}
-              helperText={form.errors[name]}
+              helpertext={form.errors[name]}
               style={{ width: "100%" }}
             >
               {options.map((option) => {

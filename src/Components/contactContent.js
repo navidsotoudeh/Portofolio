@@ -70,7 +70,7 @@ export default function ContactContent() {
           value={formik.values.name}
           onChange={formik.handleChange}
           error={formik.touched.name && Boolean(formik.errors.name)}
-          helperText={formik.touched.name ? formik.errors.name : ""}
+          helpertext={formik.touched.name ? formik.errors.name : ""}
         />
         <TextField
           fullWidth

@@ -11,7 +11,7 @@ export default function MaterialUiTextarea(props) {
         {({ form }) => (
           <TextareaAutosize
             error={form.errors[name] && form.touched[name]}
-            helperText={form.errors[name]}
+            helpertext={form.errors[name]}
             rowsMin={6}
             placeholder="Write your comments"
           />

@@ -16,14 +16,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="c6">
+    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="TestFoRTransitionGroup">
+      <change afterPath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/ss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/sss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LinearProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LinearProgressBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SkillsContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SkillsContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/sssss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiTextarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiTextarea.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/commentContent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/commentForTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/commentForTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/commentForTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/commentContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/contactContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/contactContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/commentForTest.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/commentForTest.css" afterDir="false" />
     </list>
     <list id="b268f71f-0eda-4ae4-8895-6bcbd7137e0b" name="Revert &quot;c3&quot;" comment="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566" />
@@ -268,7 +275,18 @@
       <workItem from="1623219044545" duration="9343000" />
       <workItem from="1623229881620" duration="46000" />
       <workItem from="1623230154713" duration="71000" />
-      <workItem from="1623230495633" duration="8200000" />
+      <workItem from="1623230495633" duration="10733000" />
+      <workItem from="1623251149128" duration="7366000" />
+      <workItem from="1623264293636" duration="320000" />
+      <workItem from="1623264639109" duration="142000" />
+      <workItem from="1623264821645" duration="2055000" />
+      <workItem from="1623302640867" duration="8281000" />
+      <workItem from="1623328270808" duration="1178000" />
+      <workItem from="1623409116788" duration="12000" />
+      <workItem from="1623413620810" duration="1663000" />
+      <workItem from="1623416626643" duration="24000" />
+      <workItem from="1623417629347" duration="4318000" />
+      <workItem from="1623422023911" duration="7425000" />
     </task>
     <task id="LOCAL-00001" summary="c1">
       <created>1622187990878</created>
@@ -312,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623152955066</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TestFoRTransitionGroup">
+      <created>1623243774530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623243774530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +386,8 @@
     <MESSAGE value="c4" />
     <MESSAGE value="Revert &quot;c4&quot;&#10;&#10;This reverts commit 5e73228e" />
     <MESSAGE value="c6" />
-    <option name="LAST_COMMIT_MESSAGE" value="c6" />
+    <MESSAGE value="TestFoRTransitionGroup" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestFoRTransitionGroup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="305" key="#ESLint" timestamp="1623145366740">
@@ -424,21 +450,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="326" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1622188295840" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623211983738">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623243801455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623211983738" />
-    <state x="285" y="105" width="1033" height="672" key="find.popup" timestamp="1623228296117">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623243801455" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623419842772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="285" y="105" width="1033" height="672" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1623228296117" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1623419842772" />
+    <state x="285" y="105" width="1033" height="672" key="find.popup" timestamp="1623435508337">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="285" y="105" width="1033" height="672" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1623435508337" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1623148961414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1623148961414" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1623222621758">
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1623436560447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623222621758" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1623436560447" />
   </component>
 </project>

@@ -1,49 +1,48 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/commentForTest.css";
 import TransitionGroup from "react-transition-group/TransitionGroup";
 import CSSTransition from "react-transition-group/CSSTransition";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import labtop from "../images/labtop.png";
 
-export default function CommentForTest() {
-  const useStyles = makeStyles((theme) => ({
-    header: {
-      width: "80%",
-      height: "70px",
-      backgroundColor: "wheat",
-      display: "flex",
-      justifyContent: "space-around",
-      borderRadius: "1%",
-      boxShadow: "1px 1px 1px #9E9E9E",
-    },
-    headerId: {
-      width: "50%",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-around",
-      color: "grey",
-    },
-    commentRow: {
-      width: "80%",
-      height: "20%",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-around",
-      backgroundColor: "honeydew",
-      marginTop: "5px",
-      borderRadius: "1%",
-      boxShadow: "1px 1px 1px #9E9E9E",
-    },
-    rowId: {
-      width: "50%",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-around",
-    },
-  }));
+export default function CommentContent() {
+  const useStyles = makeStyles(() => {
+    return {
+      header: {
+        width: "80%",
+        height: "70px",
+        backgroundColor: "wheat",
+        display: "flex",
+        justifyContent: "space-around",
+        borderRadius: "1%",
+        boxShadow: "1px 1px 1px #9E9E9E",
+      },
+      headerId: {
+        width: "50%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-around",
+        color: "grey",
+      },
+      commentRow: {
+        display: "flex",
+        width: "100%",
+        justifyContent: "space-around",
+        backgroundColor: "honeydew",
+        marginTop: "5px",
+        borderRadius: "1%",
+        boxShadow: "1px 1px 1px #9E9E9E",
+      },
+      rowId: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      },
+    };
+  });
   const classes = useStyles();
 
-  const orginalArray = [
+  let orginalArray = [
     { id: 1, name: "a", comment: "Here is your comment", img: labtop },
     { id: 2, name: "b", comment: "Here is your comment", img: labtop },
     { id: 3, name: "c", comment: "Here is your comment", img: labtop },
@@ -70,7 +69,7 @@ export default function CommentForTest() {
   }, [startIndex]);
 
   function filledCurrentArray() {
-    let newArray = [];
+    let newArray;
     newArray = [
       orginalArray[startIndex - 4 > 0 ? startIndex - 4 : startIndex + 5],
       orginalArray[startIndex - 3 > 0 ? startIndex - 3 : startIndex + 6],
@@ -81,19 +80,27 @@ export default function CommentForTest() {
     setCurrentArray(newArray);
   }
 
-  console.log(currentArray);
+  //console.log(currentArray);
   // -----------------------------------------------------------------------------
   // -----------------------------------------------------------------------------
 
   return (
-    <div style={{ height: "90%" }}>
+    <div
+      style={{
+        height: "90%",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        width: "100%",
+      }}
+    >
       <div className={classes.header}>
         <div className={classes.headerId}>ID</div>
         <div className={classes.headerId}>Name</div>
         <div className={classes.headerId}>Comment</div>
         <div className={classes.headerId}>Image</div>
       </div>
-      <TransitionGroup>
+      <TransitionGroup component="div" style={{ width: "80%" }}>
         {currentArray.map((element) => (
           <CSSTransition key={element.id} timeout={3000} classNames="navid">
             <div className={classes.commentRow}>
@@ -101,11 +108,10 @@ export default function CommentForTest() {
               <div className={classes.rowId}>{element.name}</div>
               <div className={classes.rowId}>{element.comment}</div>
               <div className={classes.rowId}>
-                {" "}
                 <img
                   src={element.img}
                   alt={"comment_photo"}
-                  style={{ width: "20%", height: "15%" }}
+                  style={{ height: 50 }}
                 />
               </div>
             </div>

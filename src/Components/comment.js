@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 import { InView } from "react-intersection-observer";
 import data from "../data.json";
 import HeaderInSection from "./headerInSection";
-import CommentForTest from "./commentForTest";
+import CommentContent from "./commentContent";
 
 //-----------------------------------CSS code---------------------------------------------------------------------------
 
@@ -38,7 +38,7 @@ export default function Comment(props) {
       <Element name="comment" className={classes.commentComponent}>
         <div className={classes.main}>
           <HeaderInSection title={title} subtitle={subtitle} />
-          <CommentForTest />
+          <CommentContent />
         </div>
       </Element>
     </InView>

@@ -17,7 +17,7 @@ const LinearProgressBar = (props) => {
     backgroundColor: "#ffc815",
     borderRadius: "inherit",
     textAlign: "right",
-    transition: "width 1s ease-in-out",
+    transition: "width 5s ease-in",
   };
 
   const labelStyles = {

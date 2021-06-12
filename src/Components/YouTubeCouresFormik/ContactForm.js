@@ -31,7 +31,7 @@ export default function ContactForm() {
   });
   const [files, setFiles] = useState([]);
   const onSubmit = (values) => {
-    console.log("form data", { ...values, images: files });
+    //console.log("form data", { ...values, images: files });
   };
 
   return (
@@ -41,7 +41,7 @@ export default function ContactForm() {
       validationSchema={validationSchema}
     >
       {(formik) => {
-        console.log("Formil props", formik);
+        //  console.log("Formik props", formik);
         return (
           <Form style={{ width: "50%" }}>
             <FormikControl

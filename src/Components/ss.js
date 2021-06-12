@@ -42,15 +42,15 @@ export default function SkillsContent() {
   const [completed9, setCompleted9] = useState(0);
 
   useEffect(() => {
-    setCompletedOne(inView ? 60 : 0);
-    setCompletedTwo(inView ? 70 : 0);
-    setCompletedThree(inView ? 80 : 0);
-    setCompleted4(inView ? 65 : 0);
-    setCompleted5(inView ? 75 : 0);
-    setCompleted6(inView ? 85 : 0);
-    setCompleted7(inView ? 70 : 0);
-    setCompleted8(inView ? 80 : 0);
-    setCompleted9(inView ? 90 : 0);
+    setCompletedOne(60);
+    setCompletedTwo(70);
+    setCompletedThree(80);
+    setCompleted4(65);
+    setCompleted5(75);
+    setCompleted6(85);
+    setCompleted7(70);
+    setCompleted8(80);
+    setCompleted9(90);
     //alert(inView);
   }, [inView]);
 
