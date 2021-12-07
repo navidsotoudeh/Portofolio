@@ -16,6 +16,7 @@
     "react-dropzone": "^11.3.2",
     "react-intersection-observer": "^8.32.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
     "react-social-icons": "^5.4.0",
     "react-transition-group": "^4.4.2",
     "web-vitals": "^1.0.1",

@@ -10,7 +10,8 @@ const useStyles = makeStyles(() => ({
     height: "100%",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-around",
+    //alignItems: "center",
+    //justifyContent: "space-between",
   },
   section: {
     width: "100%",
@@ -19,6 +20,9 @@ const useStyles = makeStyles(() => ({
   },
   circular: {
     width: "30%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
   },
   linear: {
     width: "70%",
@@ -42,17 +46,41 @@ export default function SkillsContent() {
   const [completed9, setCompleted9] = useState(0);
 
   useEffect(() => {
-    setCompletedOne(inView ? 60 : 0);
-    setCompletedTwo(inView ? 70 : 0);
-    setCompletedThree(inView ? 80 : 0);
-    setCompleted4(inView ? 65 : 0);
-    setCompleted5(inView ? 75 : 0);
-    setCompleted6(inView ? 85 : 0);
-    setCompleted7(inView ? 70 : 0);
-    setCompleted8(inView ? 80 : 0);
-    setCompleted9(inView ? 90 : 0);
+    setCompletedOne(60); //setCompleted6(inView ? 85 : 0);
+    setCompletedTwo(70);
+    setCompletedThree(80);
+    setCompleted4(65);
+    setCompleted5(75);
+    setCompleted6(85);
+    setCompleted7(70);
+    setCompleted8(80);
+    setCompleted9(90);
     //alert(inView);
   }, [inView]);
+  //--------------------------------------------------
+  const [completedOneCPB, setCompletedOneCPB] = useState(0);
+  const [completedTwoCPB, setCompletedTwoCPB] = useState(0);
+  const [completedThreeCPB, setCompletedThreeCPB] = useState(0);
+
+  useEffect(() => {
+    setCompletedOneCPB(90); //CPB : Circular Progress Bar
+
+    //alert(inView);
+  }, [inView]);
+
+  useEffect(() => {
+    setCompletedTwoCPB(70); //CPB : Circular Progress Bar
+
+    //alert(inView);
+  }, [inView]);
+
+  useEffect(() => {
+    setCompletedThreeCPB(80); //CPB : Circular Progress Bar
+
+    //alert(inView);
+  }, [inView]);
+
+  //-------------------------------------------------------
 
   return (
     <div className={classes.main}>
@@ -62,7 +90,10 @@ export default function SkillsContent() {
             <div className={classes.section}>
               {console.log("in view:", inView)}
               <div className={classes.circular}>
-                <CircularPB />
+                <CircularPB completed={completedOneCPB} />
+                <span style={{ width: "70%", backgroundColor: "red" }}>
+                  Web Development
+                </span>
               </div>
               <div className={classes.linear}>
                 <LinearProgressBar completed={completedOne} />
@@ -71,7 +102,12 @@ export default function SkillsContent() {
               </div>
             </div>
             <div className={classes.section}>
-              <div className={classes.circular} />
+              <div className={classes.circular}>
+                <CircularPB completed={completedTwoCPB} />
+                <span style={{ width: "70%", backgroundColor: "yellow" }}>
+                  Data base
+                </span>
+              </div>
               <div className={classes.linear}>
                 <LinearProgressBar completed={completed4} />
                 <LinearProgressBar completed={completed5} />
@@ -79,7 +115,13 @@ export default function SkillsContent() {
               </div>
             </div>
             <div className={classes.section}>
-              <div className={classes.circular} />
+              <div className={classes.circular}>
+                <CircularPB completed={completedThreeCPB} />
+
+                <span style={{ width: "70%", backgroundColor: "green" }}>
+                  SERVER TECHNOLOGIES
+                </span>
+              </div>
               <div className={classes.linear}>
                 <LinearProgressBar completed={completed7} />
                 <LinearProgressBar completed={completed8} />

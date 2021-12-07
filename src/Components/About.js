@@ -70,7 +70,7 @@ export default function About(props) {
             <div className={`${classes.paragraph} circularProgressBarr`}>
               <p style={{ fontSize: "25px" }}> WEB DEVELOPER FROM IRAN </p>
               <p>
-                salam 11 salam 22 salam 33An ambitious problem solver with a
+                Hello, I am navid sotoudeh..., ambitious problem solver with a
                 passion for online businesses. I have much experience of
                 creating logical and innovative solutions to complex problems. I
                 am thorough and precise in everything I do, and have a keen
