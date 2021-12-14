@@ -8,7 +8,36 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 
+const useStyles = makeStyles((theme) => ({
+  main: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-evenly",
+    height: "70vh",
+    [theme.breakpoints.down("sm")]: {
+      width: "90%",
+      alignItems: "center",
+    },
+  },
+  form: {
+    display: "flex",
+    height: "65%",
+    width: "60%",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      height: "80%",
+      alignItems: "center",
+    },
+  },
+  textField: {
+    width: "100%",
+  },
+}));
 const validationSchema = yup.object({
   name: yup.string("Enter your Name").required("Name is required"),
   email: yup
@@ -33,20 +62,12 @@ export default function ContactContent() {
       console.log();
     },
   });
-
+  const classes = useStyles();
   return (
-    <div
-      style={{
-        height: "100%",
-        width: "100%",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-evenly",
-      }}
-    >
+    <div className={classes.main}>
       <div
         style={{
-          width: "50%",
+          width: "40",
           height: "30%",
           display: "flex",
           flexDirection: "column",
@@ -67,16 +88,7 @@ export default function ContactContent() {
           </Typography>
         </div>
       </div>
-      <form
-        onSubmit={formik.handleSubmit}
-        style={{
-          display: "flex",
-          height: "60%",
-          width: "50%",
-          flexDirection: "column",
-          justifyContent: "space-between",
-        }}
-      >
+      <form onSubmit={formik.handleSubmit} className={classes.form}>
         <TextField
           variant="outlined"
           id="name"
@@ -87,6 +99,7 @@ export default function ContactContent() {
           onChange={formik.handleChange}
           error={formik.touched.name && Boolean(formik.errors.name)}
           helpertext={formik.touched.name ? formik.errors.name : ""}
+          className={classes.textField}
         />
         <TextField
           variant="outlined"
@@ -97,6 +110,7 @@ export default function ContactContent() {
           onChange={formik.handleChange}
           error={formik.touched.email && Boolean(formik.errors.email)}
           helperText={formik.touched.email && formik.errors.email}
+          className={classes.textField}
         />
         <TextareaAutosize
           rowsMin={10}
@@ -106,6 +120,7 @@ export default function ContactContent() {
           className={formik.errors.message ? "error" : null}
           onChange={formik.handleChange}
           value={formik.values.message}
+          className={classes.textField}
         />
         <Button color="primary" variant="contained" fullWidth type="submit">
           Submit
