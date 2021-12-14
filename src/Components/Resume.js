@@ -7,22 +7,35 @@ import HeaderInSection from "./headerInSection";
 import data from "../data.json";
 import ResumeContent from "./ResumeContent";
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   resumeComponent: {
-    //backgroundColor: "#dcedc8",
+    position: "relative",
     display: "flex",
     width: "100%",
-    height: "150vh",
-    top: "75px",
-    paddingTop: "80px",
+    height: "120vh",
+    marginBottom: "1rem",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      textAlign: "center",
+      justifyContent: "center",
+      alignItems: "center",
+    },
   },
   main: {
     display: "flex",
+    width: "100%",
     flexDirection: "column",
     marginLeft: "15px",
-    marginRight: "15px",
-    paddingLeft: "15px",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      marginLeft: "10px",
+    },
+  },
+  headerInSection: {
     width: "100%",
+    [theme.breakpoints.down("sm")]: {
+      width: "80%",
+    },
   },
 }));
 
@@ -34,7 +47,10 @@ export default function Resume(props) {
     <InView onChange={props.onMount}>
       <Element name="resume" className={classes.resumeComponent}>
         <div className={classes.main}>
-          <HeaderInSection title={title} subtitle={subtitle} />
+          <div className={classes.headerInSection}>
+            <HeaderInSection title={title} subtitle={subtitle} />
+          </div>
+
           <ResumeContent />
         </div>
       </Element>

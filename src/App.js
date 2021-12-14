@@ -31,12 +31,10 @@ function App() {
   const [activeSession, setActiveSession] = useState();
 
   const onAboutMount = (eA) => {
-    // console.log(eA + "about");
     eA && setActiveSession("about");
     return eA;
   };
-  const onResumneMount = (eR) => {
-    // console.log(eR + "Resume");
+  const onResumeMount = (eR) => {
     eR && setActiveSession("resume");
     return eR;
   };
@@ -44,10 +42,6 @@ function App() {
     eS && setActiveSession("skills");
     return eS;
   };
-  // const onCommentMount = (eCo) => {
-  //   eCo && setActiveSession("comment");
-  //   return eCo;
-  // };
   const onContactMount = (eC) => {
     eC && setActiveSession("contact");
     return eC;
@@ -61,9 +55,8 @@ function App() {
           <Background show={show} activeSession={activeSession} />
           <Sections
             onAboutMount={onAboutMount}
-            onResumneMount={onResumneMount}
+            onResumeMount={onResumeMount}
             onSkillsMount={onSkillsMount}
-            // onCommentMount={onCommentMount}
             onContactMount={onContactMount}
           />
         </div>

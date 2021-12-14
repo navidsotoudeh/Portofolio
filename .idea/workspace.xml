@@ -16,39 +16,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="contact and resume component is comple">
+    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="change from fzamani merged">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Appbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Appbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CircularProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CircularProgressBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contatc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contatc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ResumeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResumeContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/ContactForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/FormikContainner_YoutubeCourse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/FormikController_YouTubeCourse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiSelect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/MaterialUiTextarea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/RadioButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/Select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/TextError_YoutubeCourseForFormik.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/Textarea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/input_youtubeCourse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/ss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/YouTubeCouresFormik/youtubeCourseForFormik.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SkillsContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SkillsContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/commentContent.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/contactContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/contactContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/headerInSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/headerInSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
     </list>
     <list id="b268f71f-0eda-4ae4-8895-6bcbd7137e0b" name="Revert &quot;c3&quot;" comment="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ExportToHTMLSettings">
-    <option name="printScope" value="1" />
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +65,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Components/SkillsContent.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Components/About.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/CircularProgressBar.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/Skills.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -102,14 +95,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="H:\Faraadid\PersonalPortofolio\materialui\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Lenovo\AppData\Roaming\npm\node_modules\prettier" />
@@ -161,7 +153,7 @@
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -370,11 +362,7 @@
       <workItem from="1635706456893" duration="82000" />
       <workItem from="1636974636953" duration="1969000" />
       <workItem from="1638550358053" duration="513000" />
-      <workItem from="1638879448734" duration="899000" />
-      <workItem from="1638881211622" duration="1198000" />
-      <workItem from="1638890094346" duration="1236000" />
-      <workItem from="1639218439124" duration="7598000" />
-      <workItem from="1639401282333" duration="4974000" />
+      <workItem from="1638879448734" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="c1">
       <created>1622187990878</created>
@@ -432,14 +420,7 @@
       <option name="project" value="LOCAL" />
       <updated>1623471568273</updated>
     </task>
-    <task id="LOCAL-00009" summary="just-ready-to-continue">
-      <created>1638880084502</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1638880084502</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +442,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -494,9 +480,8 @@
     <MESSAGE value="c6" />
     <MESSAGE value="TestFoRTransitionGroup" />
     <MESSAGE value="commentContentFixedAndTestForSkillsComponent" />
-    <MESSAGE value="just-ready-to-continue" />
-    <MESSAGE value="contact and resume component is comple" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact and resume component is comple" />
+    <MESSAGE value="change from fzamani merged" />
+    <option name="LAST_COMMIT_MESSAGE" value="change from fzamani merged" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

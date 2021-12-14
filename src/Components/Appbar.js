@@ -1,4 +1,3 @@
-//---------------------------------------------import module------------------------------------------------------------
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -8,9 +7,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
 import { scroller } from "react-scroll";
-
-//-----------------------------------CSS code---------------------------------------------------------------------------
-
 const useStyles = makeStyles((theme) => ({
   toolbar: {
     flexDirection: "row",
@@ -28,8 +24,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     width: "40%",
     [theme.breakpoints.down("sm")]: {
-      flexDirection:  "row-reverse",
-      width: "100%"
+      flexDirection: "row-reverse",
+      width: "100%",
     },
   },
   myName: {
@@ -45,9 +41,8 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       // display: "none",
       textAlign: "center",
-      background : "none",
-      color : "#FFC815"
-
+      background: "none",
+      color: "#FFC815",
     },
   },
   menueIcon: {
@@ -110,12 +105,8 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
 }));
-
-//-----------------------main code--------------------------------------------------------------------------------------
-
 export default function Appbar({ onClickk, activeSession }) {
   const classes = useStyles();
-
   return (
     <Toolbar className={classes.toolbar}>
       <div className={classes.lnavbar}>
@@ -170,21 +161,6 @@ export default function Appbar({ onClickk, activeSession }) {
         >
           <Typography className={classes.title}>skills</Typography>
         </Button>
-        {/* <Button
-          style={{
-            backgroundColor:
-              activeSession === "comment" ? "#FFC815" : "#292929",
-          }}
-          className={classes.button}
-          onClick={() =>
-            scroller.scrollTo("comment", {
-              duration: 1500,
-              smooth: "easeOutQuart",
-            })
-          }
-        >
-          <Typography className={classes.title}>Comment</Typography>
-        </Button> */}
         <Button
           style={{
             backgroundColor:

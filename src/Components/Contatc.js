@@ -6,29 +6,38 @@ import { InView } from "react-intersection-observer";
 import HeaderInSection from "./headerInSection";
 import data from "../data.json";
 import ContactContent from "./contactContent";
-
-//-----------------------------------CSS code---------------------------------------------------------------------------
-
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   contactComponent: {
+    position: "relative",
     display: "flex",
     width: "100%",
-    height: "110vh",
-    paddingTop: "80px",
+    height: "150vh",
+    marginBottom: "1rem",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      height: "100%",
+      textAlign: "center",
+      justifyContent: "center",
+      alignItems: "center",
+    },
   },
-
   main: {
     display: "flex",
+    width: "100%",
     flexDirection: "column",
     marginLeft: "15px",
-    paddingLeft: "15px",
-    marginRight: "15px",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      marginLeft: "10px",
+    },
+  },
+  headerInSection: {
     width: "100%",
-    height: "100%",
+    [theme.breakpoints.down("sm")]: {
+      width: "80%",
+    },
   },
 }));
-
-//-----------------------main code--------------------------------------------------------------------------------------
 
 export default function Contact(props) {
   const classes = useStyles();
@@ -39,16 +48,10 @@ export default function Contact(props) {
     <InView onChange={props.onMount}>
       <Element name="contact" className={classes.contactComponent}>
         <div className={classes.main}>
-          <HeaderInSection title={title} subtitle={subtitle} />
-          <div
-            style={{
-              display: "flex",
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            <ContactContent />
+          <div className={classes.headerInSection}>
+            <HeaderInSection title={title} subtitle={subtitle} />
           </div>
+          <ContactContent />
         </div>
       </Element>
     </InView>

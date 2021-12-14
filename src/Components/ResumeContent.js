@@ -14,8 +14,11 @@ import Divider from "@material-ui/core/Divider";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "65%",
+    width: "85%",
     backgroundColor: theme.palette.background.paper,
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+    },
   },
   nested: {
     paddingLeft: theme.spacing(4),
@@ -36,10 +39,10 @@ const useStyles = makeStyles((theme) => ({
 export default function ResumeContent() {
   const classes = useStyles();
 
-  const [openZero, setOpenZero] = React.useState(true);
-  const [openOne, setOpenOne] = React.useState(true);
-  const [openTwo, setOpenTwo] = React.useState(true);
-  const [openThree, setOpenThree] = React.useState(true);
+  const [openZero, setOpenZero] = React.useState(false);
+  const [openOne, setOpenOne] = React.useState(false);
+  const [openTwo, setOpenTwo] = React.useState(false);
+  const [openThree, setOpenThree] = React.useState(false);
 
   const handleClickZero = () => {
     setOpenZero(!openZero);

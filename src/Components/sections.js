@@ -2,7 +2,6 @@ import React from "react";
 import About from "./About";
 import Resume from "./Resume";
 import Skills from "./Skills";
-import Comment from "./comment";
 import Contact from "./Contatc";
 import { makeStyles } from "@material-ui/core/styles";
 import Divider from "@material-ui/core/Divider";
@@ -15,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
     width: "60%",
     top: "70px",
     [theme.breakpoints.down("sm")]: {
-         width: "100%",
-      },
+      width: "100%",
+    },
   },
   dvd: {
     background: "#6a6363",
@@ -24,27 +23,21 @@ const useStyles = makeStyles((theme) => ({
     variant: "fullWidth",
   },
 }));
-
-//-----------------------main code--------------------------------------------------------------------------------------
-
 export default function Sections({
   onAboutMount,
-  onResumneMount,
+  onResumeMount,
   onSkillsMount,
-  onCommentMount,
   onContactMount,
 }) {
   const classes = useStyles();
-
   return (
     <div className={classes.sections}>
       <About onMount={onAboutMount} />
       <Divider className={classes.dvd} />
-      <Resume onMount={onResumneMount} />
+      <Resume onMount={onResumeMount} />
       <Divider className={classes.dvd} />
       <Skills onMount={onSkillsMount} />
       <Divider className={classes.dvd} />
-      {/* <Comment onMount={onCommentMount} /> */}
       <Divider className={classes.dvd} />
       <Contact onMount={onContactMount} />
     </div>

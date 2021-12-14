@@ -3,26 +3,26 @@ import LinearProgressBar from "./LinearProgressBar";
 import { makeStyles } from "@material-ui/core/styles";
 import CircularPB from "./CircularProgressBar";
 import { InView } from "react-intersection-observer";
-
+import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(() => ({
   main: {
     width: "100%",
     height: "100%",
     display: "flex",
     flexDirection: "column",
-    //alignItems: "center",
-    //justifyContent: "space-between",
   },
   section: {
-    width: "100%",
+    width: "80%",
     display: "flex",
+    height: "35%",
     flexDirection: "row",
   },
   circular: {
     width: "30%",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between",
+    justifyContent: "flex-start",
+    alignItems: "center",
   },
   linear: {
     width: "70%",
@@ -55,7 +55,6 @@ export default function SkillsContent() {
     setCompleted7(70);
     setCompleted8(80);
     setCompleted9(90);
-    //alert(inView);
   }, [inView]);
   //--------------------------------------------------
   const [completedOneCPB, setCompletedOneCPB] = useState(0);
@@ -76,61 +75,79 @@ export default function SkillsContent() {
 
   useEffect(() => {
     setCompletedThreeCPB(80); //CPB : Circular Progress Bar
-
-    //alert(inView);
   }, [inView]);
 
   //-------------------------------------------------------
 
   return (
-    <div className={classes.main}>
-      <InView onChange={setInView}>
-        {({ ref, inView }) => (
-          <div ref={ref}>
-            <div className={classes.section}>
-              {console.log("in view:", inView)}
-              <div className={classes.circular}>
-                <CircularPB completed={completedOneCPB} />
-                <span style={{ width: "70%", backgroundColor: "red" }}>
-                  Web Development
-                </span>
-              </div>
-              <div className={classes.linear}>
-                <LinearProgressBar completed={completedOne} />
-                <LinearProgressBar completed={completedTwo} />
-                <LinearProgressBar completed={completedThree} />
-              </div>
-            </div>
-            <div className={classes.section}>
-              <div className={classes.circular}>
-                <CircularPB completed={completedTwoCPB} />
-                <span style={{ width: "70%", backgroundColor: "yellow" }}>
-                  Data base
-                </span>
-              </div>
-              <div className={classes.linear}>
-                <LinearProgressBar completed={completed4} />
-                <LinearProgressBar completed={completed5} />
-                <LinearProgressBar completed={completed6} />
-              </div>
-            </div>
-            <div className={classes.section}>
-              <div className={classes.circular}>
+    <InView onChange={setInView}>
+      {({ ref, inView }) => (
+        <div ref={ref}>
+          <div className={classes.section}>
+            <div className={classes.circular}>
+              <div
+                style={{
+                  width: "70%",
+                  height: "70%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
                 <CircularPB completed={completedThreeCPB} />
-
-                <span style={{ width: "70%", backgroundColor: "green" }}>
-                  SERVER TECHNOLOGIES
-                </span>
               </div>
-              <div className={classes.linear}>
-                <LinearProgressBar completed={completed7} />
-                <LinearProgressBar completed={completed8} />
-                <LinearProgressBar completed={completed9} />
-              </div>
+              <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
+            </div>
+            <div className={classes.linear}>
+              <LinearProgressBar completed={completed7} />
+              <LinearProgressBar completed={completed8} />
+              <LinearProgressBar completed={completed9} />
             </div>
           </div>
-        )}
-      </InView>
-    </div>
+          {/*//==========================================================================================*/}
+          <div className={classes.section}>
+            <div className={classes.circular}>
+              <div
+                style={{
+                  width: "70%",
+                  height: "70%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <CircularPB completed={completedThreeCPB} />
+              </div>
+              <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
+            </div>
+            <div className={classes.linear}>
+              <LinearProgressBar completed={completed7} />
+              <LinearProgressBar completed={completed8} />
+              <LinearProgressBar completed={completed9} />
+            </div>
+          </div>
+          {/*//==========================================================================================*/}
+          <div className={classes.section}>
+            <div className={classes.circular}>
+              <div
+                style={{
+                  width: "70%",
+                  height: "70%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <CircularPB completed={completedThreeCPB} />
+              </div>
+              <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
+            </div>
+            <div className={classes.linear}>
+              <LinearProgressBar completed={completed7} />
+              <LinearProgressBar completed={completed8} />
+              <LinearProgressBar completed={completed9} />
+            </div>
+          </div>
+          {/*//==========================================================================================*/}
+        </div>
+      )}
+    </InView>
   );
 }

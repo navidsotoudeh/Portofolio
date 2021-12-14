@@ -1,11 +1,7 @@
-//---------------------------------------------import module------------------------------------------------------------
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import Divider from "@material-ui/core/Divider";
-
-//-----------------------------------CSS code---------------------------------------------------------------------------
-
 const useStyles = makeStyles((theme) => ({
   header: {
     display: "flex",
@@ -13,8 +9,8 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "10px",
     width: "100%",
     [theme.breakpoints.down("sm")]: {
-        textAlign : "center",
-      },
+      textAlign: "center",
+    },
   },
   headerText: {
     display: "flex",
@@ -29,20 +25,17 @@ const useStyles = makeStyles((theme) => ({
   },
   dvd: {
     background: "#FFC815",
-    width: "200px",
+    width: "30%",
     variant: "fullWidth",
     height: "5px",
     [theme.breakpoints.down("sm")]: {
-        width : "100%",
-      },
+      width: "100%",
+    },
   },
 }));
 
-//-----------------------main code--------------------------------------------------------------------------------------
-
 export default function HeaderInSection(props) {
   const classes = useStyles();
-
   return (
     <div className={classes.header}>
       <Box borderRadius={26} className={classes.headerText}>
@@ -56,7 +49,6 @@ export default function HeaderInSection(props) {
           {props.title}
         </h3>
       </Box>
-
       <h2
         style={{
           paddingLeft: "15px",

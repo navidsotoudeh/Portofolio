@@ -1,4 +1,3 @@
-//---------------------------------------------import module------------------------------------------------------------
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Element } from "react-scroll";
@@ -7,38 +6,50 @@ import HeaderInSection from "./headerInSection";
 import data from "../data.json";
 import SkillsContent from "./SkillsContent";
 
-//-----------------------------------CSS code---------------------------------------------------------------------------
-
 const useStyles = makeStyles((theme) => ({
   skillsComponent: {
-    backgroundColor: "#84ffff",
+    position: "relative",
     display: "flex",
     width: "100%",
     height: "150vh",
-    paddingTop: "80px",
+    marginBottom: "1rem",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      height: "100%",
+      textAlign: "center",
+      justifyContent: "center",
+      alignItems: "center",
+    },
   },
   main: {
     display: "flex",
-    flexDirection: "column",
     width: "100%",
+    flexDirection: "column",
     marginLeft: "15px",
-    marginRight: "15px",
-    paddingLeft: "15px",
+    [theme.breakpoints.down("sm")]: {
+      display: "block",
+      marginLeft: "10px",
+    },
+  },
+  headerInSection: {
+    width: "100%",
+    [theme.breakpoints.down("sm")]: {
+      width: "80%",
+    },
   },
 }));
-
-//-----------------------main code--------------------------------------------------------------------------------------
 
 export default function Contact(props) {
   const classes = useStyles();
   const title = data.SKILLS.title;
   const subtitle = data.SKILLS.subtitle;
-
   return (
     <InView onChange={props.onMount}>
       <Element name="skills" className={classes.skillsComponent}>
         <div className={classes.main}>
-          <HeaderInSection title={title} subtitle={subtitle} />
+          <div className={classes.headerInSection}>
+            <HeaderInSection title={title} subtitle={subtitle} />
+          </div>
           <SkillsContent />
         </div>
       </Element>
