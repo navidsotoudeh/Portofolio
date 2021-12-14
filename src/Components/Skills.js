@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     width: "100%",
     marginLeft: "15px",
+    marginRight: "15px",
     paddingLeft: "15px",
   },
 }));

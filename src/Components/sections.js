@@ -14,10 +14,13 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     width: "60%",
     top: "70px",
+    [theme.breakpoints.down("sm")]: {
+         width: "100%",
+      },
   },
   dvd: {
     background: "#6a6363",
-    width: "1000px",
+    width: "100%",
     variant: "fullWidth",
   },
 }));
@@ -41,7 +44,7 @@ export default function Sections({
       <Divider className={classes.dvd} />
       <Skills onMount={onSkillsMount} />
       <Divider className={classes.dvd} />
-      <Comment onMount={onCommentMount} />
+      {/* <Comment onMount={onCommentMount} /> */}
       <Divider className={classes.dvd} />
       <Contact onMount={onContactMount} />
     </div>

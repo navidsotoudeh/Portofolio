@@ -27,6 +27,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
     justifyContent: "space-between",
     width: "40%",
+    [theme.breakpoints.down("sm")]: {
+      flexDirection:  "row-reverse",
+      width: "100%"
+    },
   },
   myName: {
     display: "flex",
@@ -37,10 +41,18 @@ const useStyles = makeStyles((theme) => ({
     height: "70px",
     width: "150px",
     color: "black",
+    whiteSpace: "nowrap",
+    [theme.breakpoints.down("sm")]: {
+      // display: "none",
+      textAlign: "center",
+      background : "none",
+      color : "#FFC815"
+
+    },
   },
   menueIcon: {
     display: "flex",
-    marginRight: theme.spacing(2),
+    // marginRight: theme.spacing(2),
     alignSelf: "center",
     alignItems: "center",
     color: "white",
@@ -50,9 +62,9 @@ const useStyles = makeStyles((theme) => ({
       color: "#FFC815",
     },
     transform: "scale(1.8)",
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
-    },
+    // [theme.breakpoints.down("sm")]: {
+    //   display: "none",
+    // },
   },
   Grid: {
     alignItems: "center",
@@ -158,7 +170,7 @@ export default function Appbar({ onClickk, activeSession }) {
         >
           <Typography className={classes.title}>skills</Typography>
         </Button>
-        <Button
+        {/* <Button
           style={{
             backgroundColor:
               activeSession === "comment" ? "#FFC815" : "#292929",
@@ -172,7 +184,7 @@ export default function Appbar({ onClickk, activeSession }) {
           }
         >
           <Typography className={classes.title}>Comment</Typography>
-        </Button>
+        </Button> */}
         <Button
           style={{
             backgroundColor:

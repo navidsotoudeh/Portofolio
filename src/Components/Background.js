@@ -15,6 +15,9 @@ export default function Background({ activeSession, show }) {
       width: "40%",
       height: "100%",
       position: "relative",
+      [theme.breakpoints.down("sm")]: {
+        display: "none",
+      },
     },
     img: {
       top: "-70px",
@@ -45,7 +48,7 @@ export default function Background({ activeSession, show }) {
 
   return (
     <div className={classes.bg}>
-      <img src={bgImage()} alt={"labtop.png"} className={classes.img} />
+      <img src={bgImage()} alt="labtop.png" className={classes.img} />
       <div
         style={{
           width: "40%",

@@ -33,7 +33,6 @@ function App() {
   };
 
   const [activeSession, setActiveSession] = useState();
-  console.log('hello from new branch zamanipour')
 
   const onAboutMount = (eA) => {
     // console.log(eA + "about");
@@ -49,10 +48,10 @@ function App() {
     eS && setActiveSession("skills");
     return eS;
   };
-  const onCommentMount = (eCo) => {
-    eCo && setActiveSession("comment");
-    return eCo;
-  };
+  // const onCommentMount = (eCo) => {
+  //   eCo && setActiveSession("comment");
+  //   return eCo;
+  // };
   const onContactMount = (eC) => {
     eC && setActiveSession("contact");
     return eC;
@@ -68,7 +67,7 @@ function App() {
             onAboutMount={onAboutMount}
             onResumneMount={onResumneMount}
             onSkillsMount={onSkillsMount}
-            onCommentMount={onCommentMount}
+            // onCommentMount={onCommentMount}
             onContactMount={onContactMount}
           />
         </div>

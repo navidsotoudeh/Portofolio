@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     marginTop: "10px",
     width: "100%",
+    [theme.breakpoints.down("sm")]: {
+        textAlign : "center",
+      },
   },
   headerText: {
     display: "flex",
@@ -29,6 +32,9 @@ const useStyles = makeStyles((theme) => ({
     width: "200px",
     variant: "fullWidth",
     height: "5px",
+    [theme.breakpoints.down("sm")]: {
+        width : "100%",
+      },
   },
 }));
 

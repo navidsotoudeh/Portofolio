@@ -14,8 +14,9 @@ export default function HoverMenue({ show }) {
       opacity: 0.7,
       alignItems: "center",
       cursor: "pointer",
+      zIndex: 999999,
       [theme.breakpoints.down("sm")]: {
-        display: "none",
+         alignItems: "start",
       },
     },
     btnholder: {
@@ -36,6 +37,10 @@ export default function HoverMenue({ show }) {
       fontWeight: "bold",
       "&:hover": {
         backgroundColor: "grey",
+      },
+       [theme.breakpoints.down("sm")]: {
+         borderBottom : "1px solid gray",
+         padding : "8px"
       },
     },
   }));
