@@ -6,9 +6,7 @@ import Sections from "./Components/sections";
 import { makeStyles } from "@material-ui/core/styles";
 import "./index.css";
 
-//-----------------------------------CSS code---------------------------------------------------------------------------
-
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   main: {
     display: "flex",
     flexDirection: "column",
@@ -19,11 +17,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "row",
     width: "100%",
-    height: "100vh", // height: "100%", boodddd
+    height: "100vh",
   },
 }));
-
-//-----------------------------------main code---------------------------------------------------------------------------
 
 function App() {
   const classes = useStyles();

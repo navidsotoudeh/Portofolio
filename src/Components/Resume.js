@@ -7,11 +7,9 @@ import HeaderInSection from "./headerInSection";
 import data from "../data.json";
 import ResumeContent from "./ResumeContent";
 
-//-----------------------------------CSS code---------------------------------------------------------------------------
-
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   resumeComponent: {
-    backgroundColor: "#dcedc8",
+    //backgroundColor: "#dcedc8",
     display: "flex",
     width: "100%",
     height: "150vh",
@@ -27,8 +25,6 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
 }));
-
-//-----------------------main code--------------------------------------------------------------------------------------
 
 export default function Resume(props) {
   const classes = useStyles();

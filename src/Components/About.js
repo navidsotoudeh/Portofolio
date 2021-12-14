@@ -1,4 +1,3 @@
-//---------------------------------------------import module------------------------------------------------------------
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Element } from "react-scroll";
@@ -12,7 +11,7 @@ import { InView } from "react-intersection-observer";
 
 const useStyles = makeStyles(theme => ({
   aboutComponent: {
-    backgroundColor: "#f9fbe7",
+    //backgroundColor: "#f9fbe7",
     position: "relative",
     display: "flex",
     width: "100%",
@@ -53,7 +52,6 @@ const useStyles = makeStyles(theme => ({
   paragraph: {
     display: "flex",
     flexDirection: "column",
-    //justifyContent: "center",
     paddingLeft: "15px",
     marginLeft: "15px",
     paddingRight: "15px",

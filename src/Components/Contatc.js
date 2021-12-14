@@ -5,17 +5,15 @@ import { Element } from "react-scroll";
 import { InView } from "react-intersection-observer";
 import HeaderInSection from "./headerInSection";
 import data from "../data.json";
-//import ContactContent from "./contactContent";
-import ContactForm from "./YouTubeCouresFormik/ContactForm";
+import ContactContent from "./contactContent";
 
 //-----------------------------------CSS code---------------------------------------------------------------------------
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   contactComponent: {
-    backgroundColor: "bisque",
     display: "flex",
     width: "100%",
-    height: "150vh",
+    height: "110vh",
     paddingTop: "80px",
   },
 
@@ -42,10 +40,14 @@ export default function Contact(props) {
       <Element name="contact" className={classes.contactComponent}>
         <div className={classes.main}>
           <HeaderInSection title={title} subtitle={subtitle} />
-          <div style={{ display: "flex", width: "100%" }}>
-            <ContactForm />
-            {/*<YoutybeCourseForFormik />*/}
-            {/*<ContactContent />*/}
+          <div
+            style={{
+              display: "flex",
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <ContactContent />
           </div>
         </div>
       </Element>

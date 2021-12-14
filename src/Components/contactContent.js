@@ -2,36 +2,12 @@ import { useFormik } from "formik";
 import * as yup from "yup";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
-import { TextareaAutosize, MenuItem } from "@material-ui/core";
+import { TextareaAutosize } from "@material-ui/core";
+import Typography from "@material-ui/core/Typography";
+import PhoneIcon from "@material-ui/icons/Phone";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import LocationOnIcon from "@material-ui/icons/LocationOn";
 import React from "react";
-import MyDropzone from "./dropzone";
-
-const jobCategory = [
-  {
-    value: "computer Engineer",
-    label: "Computer Engineer",
-  },
-  {
-    value: "civil Engineer",
-    label: "Civil Engineer",
-  },
-  {
-    value: "electrical Engineer",
-    label: "Electrical Engineer",
-  },
-  {
-    value: "Mechanical Engineer",
-    label: "Mechanical Engineer",
-  },
-  {
-    value: "chemical Engineer",
-    label: "chemical Engineer",
-  },
-  {
-    value: "I am not an engineer",
-    label: "I am not an engineer",
-  },
-];
 
 const validationSchema = yup.object({
   name: yup.string("Enter your Name").required("Name is required"),
@@ -54,15 +30,55 @@ export default function ContactContent() {
     validationSchema: validationSchema,
     onSubmit: (values) => {
       alert(JSON.stringify(values, null, 2));
-      console.log(); ////////////////////////////////////
+      console.log();
     },
   });
 
   return (
-    <div style={{ height: "100%" }}>
-      <form onSubmit={formik.handleSubmit}>
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-evenly",
+      }}
+    >
+      <div
+        style={{
+          width: "50%",
+          height: "30%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-evenly",
+        }}
+      >
+        <Typography variant="h5">LET'S KEEP IN TOUCH</Typography>
+        <div>
+          <Typography variant="subtitle1">
+            <PhoneIcon style={{ fontSize: 20, color: "#ffc815" }} /> 09357098527
+          </Typography>
+          <Typography variant="subtitle1">
+            <MailOutlineIcon style={{ fontSize: 20, color: "#ffc815" }} />{" "}
+            Navidsotoudehmehmehr@gmail.com
+          </Typography>
+          <Typography variant="subtitle1">
+            <LocationOnIcon style={{ fontSize: 20, color: "#ffc815" }} /> Tehran
+          </Typography>
+        </div>
+      </div>
+      <form
+        onSubmit={formik.handleSubmit}
+        style={{
+          display: "flex",
+          height: "60%",
+          width: "50%",
+          flexDirection: "column",
+          justifyContent: "space-between",
+        }}
+      >
         <TextField
-          fullWidth
+          variant="outlined"
           id="name"
           name="name"
           label="Name"
@@ -73,7 +89,7 @@ export default function ContactContent() {
           helpertext={formik.touched.name ? formik.errors.name : ""}
         />
         <TextField
-          fullWidth
+          variant="outlined"
           id="email"
           name="email"
           label="Email"
@@ -82,54 +98,16 @@ export default function ContactContent() {
           error={formik.touched.email && Boolean(formik.errors.email)}
           helperText={formik.touched.email && formik.errors.email}
         />
-
-        <TextField
-          select
-          id="job"
-          label="job Category"
-          value={formik.values.job}
-          onChange={formik.handleChange("job")}
-          error={formik.touched.course && Boolean(formik.errors.course)}
-          margin="dense"
-          variant="outlined"
-          fullWidth
-        >
-          {jobCategory.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "flex-start",
-          }}
-        >
-          <div style={{ width: "80%" }}>
-            <TextareaAutosize
-              rowsMin={10}
-              id="message"
-              label="message"
-              placeholder="Your message"
-              className={formik.errors.message ? "error" : null}
-              onChange={formik.handleChange}
-              value={formik.values.message}
-              style={{ backgroundColor: "#e0f7fa", width: "90%" }}
-            />
-          </div>
-          <div style={{ width: "20%" }}>
-            <MyDropzone id="file" name="file" type="file" />
-          </div>
-        </div>
-        <Button
-          color="primary"
-          variant="contained"
-          fullWidth
-          type="submit"
-          style={{ marginTop: "50px" }}
-        >
+        <TextareaAutosize
+          rowsMin={10}
+          id="message"
+          label="message"
+          placeholder="Your message"
+          className={formik.errors.message ? "error" : null}
+          onChange={formik.handleChange}
+          value={formik.values.message}
+        />
+        <Button color="primary" variant="contained" fullWidth type="submit">
           Submit
         </Button>
       </form>
