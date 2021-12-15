@@ -1,35 +1,32 @@
 import React from "react";
 
 const LinearProgressBar = (props) => {
-  const { completed } = props;
+  const { progress } = props;
 
   const containerStyles = {
     height: 20,
-    width: "90%",
+    width: "100%",
     backgroundColor: "#eee",
-    borderRadius: 5,
-    margin: 10,
+    marginBottom: 10,
   };
 
   const fillerStyles = {
     height: "100%",
-    width: `${completed}%`,
+    width: `${progress}%`,
     backgroundColor: "#ffc815",
     borderRadius: "inherit",
     textAlign: "right",
-    transition: "width 5s ease-in",
+    //transition: "width 5s ease-in",
   };
 
   const labelStyles = {
-    padding: 5,
-    color: "white",
-    fontWeight: "bold",
+    color: "black",
   };
 
   return (
     <div style={containerStyles}>
       <div style={fillerStyles}>
-        <span style={labelStyles}>{`${completed}%`}</span>
+        <span style={labelStyles}>{`${progress}% `}</span>
       </div>
     </div>
   );

@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import Sections from "./Components/sections";
 import { makeStyles } from "@material-ui/core/styles";
 import "./index.css";
+import theme from "./theme";
+import { ThemeProvider } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(() => ({
   main: {
@@ -48,7 +50,7 @@ function App() {
   };
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <div className={classes.main}>
         <Appbar onClickk={handleOnClick} activeSession={activeSession} />
         <div className={classes.sectionsAndBackground}>
@@ -61,7 +63,7 @@ function App() {
           />
         </div>
       </div>
-    </>
+    </ThemeProvider>
   );
 }
 

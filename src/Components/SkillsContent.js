@@ -1,21 +1,25 @@
-import React, { useEffect, useState } from "react";
-import LinearProgressBar from "./LinearProgressBar";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import CircularPB from "./CircularProgressBar";
 import { InView } from "react-intersection-observer";
 import Typography from "@material-ui/core/Typography";
-const useStyles = makeStyles(() => ({
+import CircularStatic from "./CircularStatic";
+import LinearStatic from "./LinearStatic";
+
+const useStyles = makeStyles((theme) => ({
   main: {
     width: "100%",
-    height: "100%",
+    height: "60%",
     display: "flex",
     flexDirection: "column",
   },
   section: {
     width: "80%",
     display: "flex",
-    height: "35%",
+    height: "30%",
     flexDirection: "row",
+    [theme.breakpoints.down("sm")]: {
+      width: "95%",
+    },
   },
   circular: {
     width: "30%",
@@ -31,123 +35,80 @@ const useStyles = makeStyles(() => ({
 
 export default function SkillsContent() {
   const classes = useStyles();
-  const [inView, setInView] = React.useState(false);
-
-  const [completedOne, setCompletedOne] = useState(0);
-  const [completedTwo, setCompletedTwo] = useState(0);
-  const [completedThree, setCompletedThree] = useState(0);
-
-  const [completed4, setCompleted4] = useState(0);
-  const [completed5, setCompleted5] = useState(0);
-  const [completed6, setCompleted6] = useState(0);
-
-  const [completed7, setCompleted7] = useState(0);
-  const [completed8, setCompleted8] = useState(0);
-  const [completed9, setCompleted9] = useState(0);
-
-  useEffect(() => {
-    setCompletedOne(60); //setCompleted6(inView ? 85 : 0);
-    setCompletedTwo(70);
-    setCompletedThree(80);
-    setCompleted4(65);
-    setCompleted5(75);
-    setCompleted6(85);
-    setCompleted7(70);
-    setCompleted8(80);
-    setCompleted9(90);
-  }, [inView]);
-  //--------------------------------------------------
-  const [completedOneCPB, setCompletedOneCPB] = useState(0);
-  const [completedTwoCPB, setCompletedTwoCPB] = useState(0);
-  const [completedThreeCPB, setCompletedThreeCPB] = useState(0);
-
-  useEffect(() => {
-    setCompletedOneCPB(90); //CPB : Circular Progress Bar
-
-    //alert(inView);
-  }, [inView]);
-
-  useEffect(() => {
-    setCompletedTwoCPB(70); //CPB : Circular Progress Bar
-
-    //alert(inView);
-  }, [inView]);
-
-  useEffect(() => {
-    setCompletedThreeCPB(80); //CPB : Circular Progress Bar
-  }, [inView]);
-
-  //-------------------------------------------------------
-
+  const [inView, setInView] = useState(false);
   return (
     <InView onChange={setInView}>
-      {({ ref, inView }) => (
-        <div ref={ref}>
-          <div className={classes.section}>
-            <div className={classes.circular}>
-              <div
-                style={{
-                  width: "70%",
-                  height: "70%",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <CircularPB completed={completedThreeCPB} />
+      {({ ref, inView }) => {
+        console.log("inView in 85", inView);
+        return (
+          <div ref={ref} className={classes.main}>
+            <div className={classes.section}>
+              <div className={classes.circular}>
+                <CircularStatic navid={90} inView={inView} />
+                <Typography variant="subtitle1">
+                  FRONT-END TECHNOLOGIES
+                </Typography>
               </div>
-              <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
+              <div className={classes.linear}>
+                <div>
+                  <Typography variant="subtitle2">HTML5 / CCS 3</Typography>
+                  <LinearStatic navid={85} inView={inView} />
+                </div>
+                <div>
+                  <Typography variant="subtitle2">JAVASCRIPT</Typography>
+                  <LinearStatic navid={95} inView={inView} />
+                </div>
+                <div>
+                  <Typography variant="subtitle2">REACT</Typography>
+                  <LinearStatic navid={90} inView={inView} />
+                </div>
+              </div>
             </div>
-            <div className={classes.linear}>
-              <LinearProgressBar completed={completed7} />
-              <LinearProgressBar completed={completed8} />
-              <LinearProgressBar completed={completed9} />
+            <div className={classes.section}>
+              <div className={classes.circular}>
+                <CircularStatic navid={70} inView={inView} />
+                <Typography variant="subtitle1">
+                  BACK-END TECHNOLOGIES
+                </Typography>
+              </div>
+              <div className={classes.linear}>
+                <div>
+                  <Typography variant="subtitle2">Php</Typography>
+                  <LinearStatic navid={65} inView={inView} />
+                </div>
+                <div>
+                  <Typography variant="subtitle2">NodeJs</Typography>
+                  <LinearStatic navid={70} inView={inView} />
+                </div>
+                <div>
+                  <Typography variant="subtitle2">MongoDB</Typography>
+                  <LinearStatic navid={70} inView={inView} />
+                </div>
+              </div>
+            </div>
+            <div className={classes.section}>
+              <div className={classes.circular}>
+                <CircularStatic navid={65} inView={inView} />
+                <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
+              </div>
+              <div className={classes.linear}>
+                <div>
+                  <Typography variant="subtitle2">Nginx</Typography>
+                  <LinearStatic navid={65} inView={inView} />
+                </div>
+                <div>
+                  <Typography variant="subtitle2">Docker</Typography>
+                  <LinearStatic navid={60} inView={inView} />
+                </div>
+                <div>
+                  <Typography variant="subtitle2">Apache</Typography>
+                  <LinearStatic navid={70} inView={inView} />
+                </div>
+              </div>
             </div>
           </div>
-          {/*//==========================================================================================*/}
-          <div className={classes.section}>
-            <div className={classes.circular}>
-              <div
-                style={{
-                  width: "70%",
-                  height: "70%",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <CircularPB completed={completedThreeCPB} />
-              </div>
-              <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
-            </div>
-            <div className={classes.linear}>
-              <LinearProgressBar completed={completed7} />
-              <LinearProgressBar completed={completed8} />
-              <LinearProgressBar completed={completed9} />
-            </div>
-          </div>
-          {/*//==========================================================================================*/}
-          <div className={classes.section}>
-            <div className={classes.circular}>
-              <div
-                style={{
-                  width: "70%",
-                  height: "70%",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <CircularPB completed={completedThreeCPB} />
-              </div>
-              <Typography variant="subtitle1">SERVER TECHNOLOGIES</Typography>
-            </div>
-            <div className={classes.linear}>
-              <LinearProgressBar completed={completed7} />
-              <LinearProgressBar completed={completed8} />
-              <LinearProgressBar completed={completed9} />
-            </div>
-          </div>
-          {/*//==========================================================================================*/}
-        </div>
-      )}
+        );
+      }}
     </InView>
   );
 }

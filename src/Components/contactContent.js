@@ -16,22 +16,27 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly",
-    height: "70vh",
+    height: "100%",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
-      alignItems: "center",
     },
+  },
+  header: {
+    width: "40",
+    height: "30%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-evenly",
   },
   form: {
     display: "flex",
-    height: "65%",
+    height: "70%",
     width: "60%",
     flexDirection: "column",
-    justifyContent: "space-between",
+    justifyContent: "space-evenly",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
-      height: "80%",
-      alignItems: "center",
+      height: "70%",
     },
   },
   textField: {
@@ -65,15 +70,7 @@ export default function ContactContent() {
   const classes = useStyles();
   return (
     <div className={classes.main}>
-      <div
-        style={{
-          width: "40",
-          height: "30%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-evenly",
-        }}
-      >
+      <div className={classes.header}>
         <Typography variant="h5">LET'S KEEP IN TOUCH</Typography>
         <div>
           <Typography variant="subtitle1">
@@ -113,7 +110,7 @@ export default function ContactContent() {
           className={classes.textField}
         />
         <TextareaAutosize
-          rowsMin={10}
+          rowsMin={5}
           id="message"
           label="message"
           placeholder="Your message"

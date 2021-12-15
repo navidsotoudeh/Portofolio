@@ -10,31 +10,27 @@ const useStyles = makeStyles((theme) => ({
   contactComponent: {
     position: "relative",
     display: "flex",
+    justifyContent: "center",
     width: "100%",
-    height: "150vh",
-    marginBottom: "1rem",
+    height: "110vh",
     [theme.breakpoints.down("sm")]: {
-      display: "block",
-      height: "100%",
       textAlign: "center",
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  },
-  main: {
-    display: "flex",
-    width: "100%",
-    flexDirection: "column",
-    marginLeft: "15px",
-    [theme.breakpoints.down("sm")]: {
-      display: "block",
-      marginLeft: "10px",
     },
   },
   headerInSection: {
     width: "100%",
     [theme.breakpoints.down("sm")]: {
       width: "80%",
+    },
+  },
+  main: {
+    display: "flex",
+    width: "95%",
+    flexDirection: "column",
+    height: "100%",
+    [theme.breakpoints.down("sm")]: {
+      alignItems: "center",
+      height: "100%",
     },
   },
 }));

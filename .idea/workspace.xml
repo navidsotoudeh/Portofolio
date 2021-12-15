@@ -16,25 +16,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="change from fzamani merged">
+    <list default="true" id="3641bd24-2a26-4240-aa54-e8ab5878d2b8" name="Changes" comment="change from fzamani merged">
+      <change afterPath="$PROJECT_DIR$/src/Components/AboutContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/CircularStatic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LinearStatic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Appbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Appbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CircularProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CircularProgressBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CircularProgressBar.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contatc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contatc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LinearProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LinearProgressBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ResumeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ResumeContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SkillsContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SkillsContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/commentContent.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/contactContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/contactContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/headerInSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/headerInSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.json" afterDir="false" />
     </list>
-    <list id="b268f71f-0eda-4ae4-8895-6bcbd7137e0b" name="Revert &quot;c3&quot;" comment="Revert &quot;c3&quot;&#10;&#10;This reverts commit d6075566" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Components/SkillsContent.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Components/About.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/CircularProgressBar.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Components/Skills.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBowerSettings">
@@ -105,7 +101,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Lenovo\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>

@@ -11,30 +11,27 @@ const useStyles = makeStyles((theme) => ({
   resumeComponent: {
     position: "relative",
     display: "flex",
+    justifyContent: "center",
     width: "100%",
-    height: "120vh",
-    marginBottom: "1rem",
+    height: "150vh",
     [theme.breakpoints.down("sm")]: {
-      display: "block",
       textAlign: "center",
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  },
-  main: {
-    display: "flex",
-    width: "100%",
-    flexDirection: "column",
-    marginLeft: "15px",
-    [theme.breakpoints.down("sm")]: {
-      display: "block",
-      marginLeft: "10px",
     },
   },
   headerInSection: {
     width: "100%",
     [theme.breakpoints.down("sm")]: {
       width: "80%",
+    },
+  },
+  main: {
+    display: "flex",
+    width: "95%",
+    flexDirection: "column",
+    height: "100%",
+    [theme.breakpoints.down("sm")]: {
+      alignItems: "center",
+      height: "100%",
     },
   },
 }));
@@ -50,7 +47,6 @@ export default function Resume(props) {
           <div className={classes.headerInSection}>
             <HeaderInSection title={title} subtitle={subtitle} />
           </div>
-
           <ResumeContent />
         </div>
       </Element>
