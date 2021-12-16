@@ -13,12 +13,13 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   section: {
-    width: "80%",
+    width: "90%",
     display: "flex",
     height: "30%",
     flexDirection: "row",
+    justifyContent: "space-between",
     [theme.breakpoints.down("sm")]: {
-      width: "95%",
+      width: "100%",
     },
   },
   circular: {
@@ -30,6 +31,9 @@ const useStyles = makeStyles((theme) => ({
   },
   linear: {
     width: "70%",
+    [theme.breakpoints.down("sm")]: {
+      width: "60%",
+    },
   },
 }));
 

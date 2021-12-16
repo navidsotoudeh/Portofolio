@@ -5,7 +5,7 @@ export const COLORS = {
   main: "#FFC815",
   textSecondary: "#C4C4C4",
   textHint: "#CB4E6C",
-  primaryMain: "#2f2f2f",
+  primaryMain: "#101010",
 };
 
 const breakpoints = createBreakpoints({});

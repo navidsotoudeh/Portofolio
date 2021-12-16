@@ -1,23 +1,24 @@
 import React, { useState, useEffect } from "react";
+import { makeStyles } from "@material-ui/core/styles";
 
 const LinearStatic = (props) => {
   const { navid, inView } = props;
   const [progress, setProgress] = useState(0);
-  const containerStyles = {
-    height: 20,
-    width: "100%",
-    backgroundColor: "#f1eaea",
-    marginBottom: 10,
-  };
 
-  const fillerStyles = {
-    height: "100%",
-    width: `${progress}%`,
-    backgroundColor: "#ffc815",
-    borderRadius: "inherit",
-    textAlign: "right",
-  };
-
+  const useStyles = makeStyles((theme) => ({
+    containerStyles: {
+      height: 17.5,
+      width: "100%",
+      backgroundColor: "#f1eaea",
+    },
+    fillerStyles: {
+      height: "100%",
+      width: `${progress}%`,
+      backgroundColor: "#ffc815",
+      borderRadius: "inherit",
+      textAlign: "right",
+    },
+  }));
   useEffect(() => {
     if (inView) {
       setInterval(() => {
@@ -27,10 +28,15 @@ const LinearStatic = (props) => {
       }, 30);
     }
   }, [inView]);
+  const classes = useStyles();
   return (
-    <div style={containerStyles}>
-      <div style={fillerStyles}>
-        <span style={{ height: "100%" }}>{`${progress}% `}</span>
+    <div className={classes.containerStyles}>
+      <div className={classes.fillerStyles}>
+        <span
+          style={{
+            fontSize: "80%",
+          }}
+        >{`${progress}% `}</span>
       </div>
     </div>
   );

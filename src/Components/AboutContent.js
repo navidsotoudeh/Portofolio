@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles((theme) => ({
   main: {
     width: "100%",
-    height: "60%",
+    height: "80%",
     display: "flex",
     flexDirection: "column",
   },
@@ -26,11 +26,12 @@ const useStyles = makeStyles((theme) => ({
   },
   profile: {
     width: "45%",
-    height: "100%",
+    height: "80%",
     borderRadius: "5px",
     [theme.breakpoints.down("sm")]: {
       width: "80%",
-      height: "65%",
+      height: "55%",
+      marginBottom: "5px",
     },
   },
   paragraph: {
@@ -84,9 +85,8 @@ export default function AboutContent() {
                   web applications. As someone who takes responsibility for his
                   own personal development, I am continually evaluating and
                   upgrading my skills so that I stay at the cutting edge of web
-                  development. I am a natural problem solver, who have proven
-                  myself by successfully completing projects for IT
-                  consultancies, web design agencies, and IT departments.
+                  development. I am a Front-End developer mainly focused on
+                  ReactJs.
                 </Typography>
               </div>
             </div>

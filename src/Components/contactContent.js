@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
   form: {
     display: "flex",
     height: "70%",
-    width: "60%",
+    width: "70%",
     flexDirection: "column",
     justifyContent: "space-evenly",
     [theme.breakpoints.down("sm")]: {
@@ -44,13 +44,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 const validationSchema = yup.object({
-  name: yup.string("Enter your Name").required("Name is required"),
+  name: yup.string("Enter your Name").required("Please fill your name"),
   email: yup
     .string("Enter your email")
     .email("Enter a valid email")
-    .required("Email is required"),
-
-  job: yup.string().required("Select your course job"),
+    .required("Please fill your E-mail"),
 });
 
 export default function ContactContent() {
@@ -58,8 +56,6 @@ export default function ContactContent() {
     initialValues: {
       name: "",
       email: "",
-      job: "",
-      file: "",
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
@@ -91,11 +87,10 @@ export default function ContactContent() {
           id="name"
           name="name"
           label="Name"
-          type="text"
           value={formik.values.name}
           onChange={formik.handleChange}
           error={formik.touched.name && Boolean(formik.errors.name)}
-          helpertext={formik.touched.name ? formik.errors.name : ""}
+          helperText={formik.touched.name && formik.errors.name}
           className={classes.textField}
         />
         <TextField
@@ -114,10 +109,8 @@ export default function ContactContent() {
           id="message"
           label="message"
           placeholder="Your message"
-          className={formik.errors.message ? "error" : null}
           onChange={formik.handleChange}
           value={formik.values.message}
-          className={classes.textField}
         />
         <Button color="primary" variant="contained" fullWidth type="submit">
           Submit

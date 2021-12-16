@@ -11,10 +11,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     width: "100%",
-    height: "110vh",
+    height: "120vh",
     [theme.breakpoints.down("sm")]: {
       textAlign: "center",
-      height: "160vh",
+      height: "140vh",
     },
   },
   headerInSection: {

@@ -16,21 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3641bd24-2a26-4240-aa54-e8ab5878d2b8" name="Changes" comment="change from fzamani merged">
-      <change afterPath="$PROJECT_DIR$/src/Components/AboutContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CircularStatic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LinearStatic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
+    <list default="true" id="3641bd24-2a26-4240-aa54-e8ab5878d2b8" name="Changes" comment="big changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CircularProgressBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contatc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contatc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LinearProgressBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LinearProgressBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AboutContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CircularStatic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CircularStatic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LinearStatic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LinearStatic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/SkillsContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SkillsContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/contactContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/contactContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +153,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec6effd8-6a79-4b33-97d9-2e28694ed424" name="Default Changelist" comment="" />
+      <changelist id="3641bd24-2a26-4240-aa54-e8ab5878d2b8" name="Changes" comment="big changes" />
       <created>1621244092022</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -359,6 +353,8 @@
       <workItem from="1636974636953" duration="1969000" />
       <workItem from="1638550358053" duration="513000" />
       <workItem from="1638879448734" duration="594000" />
+      <workItem from="1639597920987" duration="618000" />
+      <workItem from="1639635780570" duration="5645000" />
     </task>
     <task id="LOCAL-00001" summary="c1">
       <created>1622187990878</created>
@@ -416,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623471568273</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="big changes">
+      <created>1639589048306</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639589048306</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +480,8 @@
     <MESSAGE value="TestFoRTransitionGroup" />
     <MESSAGE value="commentContentFixedAndTestForSkillsComponent" />
     <MESSAGE value="change from fzamani merged" />
-    <option name="LAST_COMMIT_MESSAGE" value="change from fzamani merged" />
+    <MESSAGE value="big changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="big changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
