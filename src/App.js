@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import "./index.css";
 import theme from "./theme";
 import { ThemeProvider } from "@material-ui/core/styles";
+import HoverMenue from "./Components/hoverMenue";
 
 const useStyles = makeStyles(() => ({
   main: {
@@ -55,6 +56,7 @@ function App() {
         <Appbar onClickk={handleOnClick} activeSession={activeSession} />
         <div className={classes.sectionsAndBackground}>
           <Background show={show} activeSession={activeSession} />
+          <HoverMenue show={show} />
           <Sections
             onAboutMount={onAboutMount}
             onResumeMount={onResumeMount}

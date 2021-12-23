@@ -17,6 +17,8 @@ export default function HoverMenue({ show }) {
       zIndex: 999999,
       [theme.breakpoints.down("sm")]: {
          alignItems: "start",
+         marginTop: '75px',
+         width: '50%'
       },
     },
     btnholder: {
