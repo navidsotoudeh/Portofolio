@@ -4,7 +4,7 @@ import { scroller } from "react-scroll";
 
 export default function HoverMenue({ show }) {
   const useStyles = makeStyles((theme) => ({
-    hoverMenue: {
+    hoverMenu: {
       top: "70px",
       backgroundColor: "black",
       width: "40%",
@@ -21,7 +21,7 @@ export default function HoverMenue({ show }) {
         width: "100%",
       },
     },
-    btnholder: {
+    btnHolder: {
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
@@ -49,8 +49,8 @@ export default function HoverMenue({ show }) {
   const classes = useStyles();
 
   return (
-    <div className={classes.hoverMenue}>
-      <div className={classes.btnholder}>
+    <div className={classes.hoverMenu}>
+      <div className={classes.btnHolder}>
         <div
           className={classes.btn}
           onClick={() =>
