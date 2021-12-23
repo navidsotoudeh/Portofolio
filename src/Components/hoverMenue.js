@@ -16,9 +16,9 @@ export default function HoverMenue({ show }) {
       cursor: "pointer",
       zIndex: 999999,
       [theme.breakpoints.down("sm")]: {
-         alignItems: "start",
-         marginTop: '75px',
-         width: '50%'
+        alignItems: "start",
+        marginTop: "65px",
+        width: "100%",
       },
     },
     btnholder: {
@@ -40,9 +40,9 @@ export default function HoverMenue({ show }) {
       "&:hover": {
         backgroundColor: "grey",
       },
-       [theme.breakpoints.down("sm")]: {
-         borderBottom : "1px solid gray",
-         padding : "8px"
+      [theme.breakpoints.down("sm")]: {
+        borderBottom: "1px solid gray",
+        padding: "8px",
       },
     },
   }));

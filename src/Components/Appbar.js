@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     zIndex: "2",
   },
-  lnavbar: {
+  lNavbar: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
@@ -39,7 +39,6 @@ const useStyles = makeStyles((theme) => ({
     color: "black",
     whiteSpace: "nowrap",
     [theme.breakpoints.down("sm")]: {
-      // display: "none",
       textAlign: "center",
       background: "none",
       color: "#FFC815",
@@ -47,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
   },
   menueIcon: {
     display: "flex",
-    // marginRight: theme.spacing(2),
     alignSelf: "center",
     alignItems: "center",
     color: "white",
@@ -72,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "4px",
     marginLeft: "2px",
   },
-  rnavbar: {
+  rNavbar: {
     flexDirection: "row",
     display: "flex",
     justifyContent: "flex-start",
@@ -109,7 +107,7 @@ export default function Appbar({ onClickk, activeSession }) {
   const classes = useStyles();
   return (
     <Toolbar className={classes.toolbar}>
-      <div className={classes.lnavbar}>
+      <div className={classes.lNavbar}>
         <div className={classes.myName}>Navid Sotoudeh</div>
         <div className={classes.menueIcon} onClick={onClickk}>
           <Grid container className={classes.Grid}>
@@ -118,7 +116,7 @@ export default function Appbar({ onClickk, activeSession }) {
           </Grid>
         </div>
       </div>
-      <div className={classes.rnavbar}>
+      <div className={classes.rNavbar}>
         <Button
           style={{
             backgroundColor: activeSession === "about" ? "#FFC815" : "#292929",
