@@ -22,12 +22,6 @@ const useStyles = makeStyles(() => ({
     width: "100%",
     height: "100vh",
   },
-  mobileMenu :{
-    display : 'none',
-    [theme.breakpoints.down("sm")]: {
-        display : 'block'
-      },
-  }
 }));
 
 function App() {
@@ -62,7 +56,7 @@ function App() {
         <Appbar onClickk={handleOnClick} activeSession={activeSession} />
         <div className={classes.sectionsAndBackground}>
           <Background show={show} activeSession={activeSession} />
-          <HoverMenue show={show} className={classes.mobileMenu}/>
+          <HoverMenue show={show} />
           <Sections
             onAboutMount={onAboutMount}
             onResumeMount={onResumeMount}
