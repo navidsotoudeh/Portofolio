@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portofolio/static/css/main.34d3bef2.chunk.css",
+    "main.js": "/Portofolio/static/js/main.10dcfa61.chunk.js",
+    "main.js.map": "/Portofolio/static/js/main.10dcfa61.chunk.js.map",
+    "runtime-main.js": "/Portofolio/static/js/runtime-main.6cb69272.js",
+    "runtime-main.js.map": "/Portofolio/static/js/runtime-main.6cb69272.js.map",
+    "static/js/2.9946f5e4.chunk.js": "/Portofolio/static/js/2.9946f5e4.chunk.js",
+    "static/js/2.9946f5e4.chunk.js.map": "/Portofolio/static/js/2.9946f5e4.chunk.js.map",
+    "static/js/3.877932af.chunk.js": "/Portofolio/static/js/3.877932af.chunk.js",
+    "static/js/3.877932af.chunk.js.map": "/Portofolio/static/js/3.877932af.chunk.js.map",
+    "index.html": "/Portofolio/index.html",
+    "static/css/main.34d3bef2.chunk.css.map": "/Portofolio/static/css/main.34d3bef2.chunk.css.map",
+    "static/js/2.9946f5e4.chunk.js.LICENSE.txt": "/Portofolio/static/js/2.9946f5e4.chunk.js.LICENSE.txt",
+    "static/media/labtop.1db39bc5.png": "/Portofolio/static/media/labtop.1db39bc5.png",
+    "static/media/lights.1d401386.png": "/Portofolio/static/media/lights.1d401386.png",
+    "static/media/me.818fad5b.png": "/Portofolio/static/media/me.818fad5b.png",
+    "static/media/miladtower.2e9ed99f.png": "/Portofolio/static/media/miladtower.2e9ed99f.png",
+    "static/media/road.b5abe807.png": "/Portofolio/static/media/road.b5abe807.png",
+    "static/media/shoes.76f2a7f8.png": "/Portofolio/static/media/shoes.76f2a7f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6cb69272.js",
+    "static/js/2.9946f5e4.chunk.js",
+    "static/css/main.34d3bef2.chunk.css",
+    "static/js/main.10dcfa61.chunk.js"
+  ]
+}
