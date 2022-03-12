@@ -1,6 +1,6 @@
 {
-  "short_name": "Navid Sotoudeh",
-  "name": "Navid Sotoudeh web site",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
